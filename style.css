@@ -1,0 +1,54 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 36%;
+  background-position: right 600px top 370px;
+  color: #1c5188;
+  background: linear-gradient(lightblue, #fef0ef 60%);
+  font-family: "georgia", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#characteristic {
+  margin: auto;
+  width: 60%;
+  color: orange;
+  padding: 21px;
+}
+
+#animated {
+  animation-name: move;
+  animation-duration: 5s;
+  nimation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+#space {
+  font-size: 25px;
+}
+
+a.button {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 184, 115, 0.65) 0%,
+    rgba(255, 124, 189, 0.65) 50%,
+    rgba(108, 0, 153, 0.65) 100%
+  );
+  border-radius: 7px;
+  margin-bottom: 70px;
+  box-shadow: 0px 2px 4px rgba(34, 62, 66, 0.25);
+  color: purple;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 6px 22px;
+  text-decoration: none;
+  -webkit-transition: box-shadow 1s ease;
+  transition: box-shadow 1s ease;
+  hover {
+    box-shadow: 0px 4px 4px rgba(33, 62, 66, 0.5);
+    -webkit-transition: box-shadow 1s ease;
+    transition: box-shadow 1s ease;
+  }
+}

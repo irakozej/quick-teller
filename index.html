@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="index.js" />
+    <title>Zodiac</title>
+  </head>
+  <body>
+    <div id="box">
+      <h1>What is your constellation sign ?</h1>
+    </div>
+
+    <h2>Enter your name and birthday.</h2>
+    <p>Enter your full name:<input type="text" id="fname" /></p>
+    <p>Day:<input type="number" id="day" min="1" max="31" /></p>
+    <p>Month:<input type="number" id="month" min="1" max="12" /></p>
+    <a id="animated" onclick="zodiacsigns()" class="button"
+      >Get your zodiac sign!
+    </a>
+    <p id="photo"></p>
+    <p id="space"></p>
+
+    <p id="characteristic"></p>
+  </body>
+</html>
