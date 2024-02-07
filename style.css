@@ -19,7 +19,7 @@ body {
 #animated {
   animation-name: move;
   animation-duration: 5s;
-  nimation-timing-function: ease-in-out;
+
   animation-iteration-count: infinite;
   animation-direction: alternate;
   cursor: pointer;
