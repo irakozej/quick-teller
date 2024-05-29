@@ -6,4 +6,4 @@
 
 * Enter your date of birth in the prompt
 * click Get my zodiac sign below, and
-* check down below, there will bw your zodiac sign and what it means
+* check down below, there will bw your zodiac sign and what it means.
