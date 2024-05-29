@@ -2,7 +2,7 @@
 
 ### This app reveals the zodiac signs depending on date of birth.
 
-## How to use it?
+#### How to use it?
 
 * Enter your date of birth in the prompt
 * click Get my zodiac sign below, and
